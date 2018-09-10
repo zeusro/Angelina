@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: nginx:1.15-alpine
+    ports:
+    - "80:80"
+    volumes:
+    - /root/Angelina:/usr/share/nginx/html:ro
