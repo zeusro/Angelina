@@ -7,3 +7,4 @@ services:
     volumes:
     - /root/Angelina:/usr/share/nginx/html:ro
     - /root/Angelina/nginx.conf:/etc/nginx/nginx.conf:ro
+    - /root/site:/etc/nginx/sites-enabled:ro
